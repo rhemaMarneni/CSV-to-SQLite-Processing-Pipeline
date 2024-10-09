@@ -2,7 +2,8 @@
 
 A data downloading and processing pipeline. Downloads a large `.tar.gz` file, containing lists of organizations and customers, decompresses and unzips the CSVs within, parses them, and add them to a SQLite database.
 
-Starter file: <https://fiber-challenges.s3.amazonaws.com/dump.tar.gz>.
+Starter file: <https://fiber-challenges.s3.amazonaws.com/dump.tar.gz>.<br>
+Courtesy: FiberAI
 
 Output directory: out/ (created automatically by code)
 Input files are downloaded into: tmp/ (created automatically by code)
@@ -63,12 +64,3 @@ tsx runner.ts
 Since the input file is quite large, allow few minutes for the pipeline to finish processing
 Feel free to make other `.ts` files for testing purposes; you can run them all with `tsx`.
 You can also run `npx tsc` to ensure your code passes all the TypeScript compiler's checks.
-
-## Evaluation
-
-We will run the following commands to test your code, starting in the `challenge-1` folder:
-
-```sh
-npm install
-tsx runner.ts
-```
