@@ -1,0 +1,46 @@
+{
+  "name": "csv-to-sqlite3",
+  "version": "1.0.0",
+  "description": "CSV to SQLite Database processing pipeline",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Rhema Marneni",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "crawlee": "^3.11.3",
+    "csv-parser": "^3.0.0",
+    "dayjs": "^1.11.9",
+    "fast-csv": "^4.3.6",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "gunzip-file": "^0.1.1",
+    "immutable": "^5.0.0-beta.4",
+    "knex": "^2.5.1",
+    "lodash": "^4.17.21",
+    "nanoid": "^5.0.1",
+    "papaparse": "^5.4.1",
+    "playwright": "^1.37.1",
+    "punycode": "^2.3.1",
+    "sqlite3": "^5.1.7",
+    "tar": "^6.2.1"
+  },
+  "devDependencies": {
+    "@apify/tsconfig": "^0.1.0",
+    "@types/fs-extra": "^11.0.2",
+    "@types/lodash": "^4.14.198",
+    "@types/node": "^20.16.5",
+    "@types/papaparse": "^5.3.8",
+    "@types/tar": "^6.1.6",
+    "prettier": "^3.0.3",
+    "tsx": "^3.12.10",
+    "typescript": "^5.2.2"
+  }
+}
