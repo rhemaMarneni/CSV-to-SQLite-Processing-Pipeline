@@ -27,7 +27,7 @@
     "lodash": "^4.17.21",
     "nanoid": "^5.0.1",
     "papaparse": "^5.4.1",
-    "playwright": "^1.37.1",
+    "playwright": "^1.56.0",
     "punycode": "^2.3.1",
     "sqlite3": "^5.1.7",
     "tar": "^6.2.1"
