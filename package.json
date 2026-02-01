@@ -30,7 +30,7 @@
     "playwright": "^1.37.1",
     "punycode": "^2.3.1",
     "sqlite3": "^5.1.7",
-    "tar": "^6.2.1"
+    "tar": "^7.5.7"
   },
   "devDependencies": {
     "@apify/tsconfig": "^0.1.0",
